@@ -39,6 +39,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --color-accent-orange: var(--accent-orange);
 }
 
 @theme {
@@ -48,6 +49,11 @@
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1280px;
   --breakpoint-2xl: 1440px;
+}
+
+@utility container {
+  margin-inline: auto;
+  /* padding-inline: 16px; */
 }
 
 :root {
@@ -94,4 +100,11 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.main-hero {
+  background-image: url("/hero-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
