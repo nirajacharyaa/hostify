@@ -42,6 +42,8 @@
   --color-accent-orange: var(--accent-orange);
   --color-light-text: var(--light-text);
   --color-light-bg: var(--light-bg);
+  --color-t-dark: var(--t-dark);
+  --color-subtle-border: var(--subtle-border);
 }
 
 @theme {
@@ -95,6 +97,8 @@
   --accent-orange: oklch(75.331% 0.17191 55.708);
   --light-text: oklch(57.268% 0.00007 271.152);
   --light-bg: oklch(97.913% 0.00011 271.152);
+  --t-dark: oklch(22.76% 0.01045 186.041);
+  --subtle-border: oklch(94.177% 0.00926 258.49);
 }
 
 @layer base {

@@ -1,9 +1,16 @@
 import Hero from "@/components/home/hero";
+import ProductList from "@/components/home/list";
+import { getProperties } from "@/lib/api";
 
-export default function Home() {
+export default async function Home() {
+  const p = await getProperties();
+
+  console.log(p);
+  if (!p) return null;
   return (
     <main>
       <Hero />
+      <ProductList />
     </main>
   );
 }
