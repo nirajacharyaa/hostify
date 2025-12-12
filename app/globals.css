@@ -40,6 +40,8 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   --color-accent-orange: var(--accent-orange);
+  --color-light-text: var(--light-text);
+  --color-light-bg: var(--light-bg);
 }
 
 @theme {
@@ -91,6 +93,8 @@
   --sidebar-ring: oklch(0.708 0 0);
   /* brand colors */
   --accent-orange: oklch(75.331% 0.17191 55.708);
+  --light-text: oklch(57.268% 0.00007 271.152);
+  --light-bg: oklch(97.913% 0.00011 271.152);
 }
 
 @layer base {
@@ -104,6 +108,13 @@
 
 .main-hero {
   background-image: url("/hero-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-bg {
+  background-image: url("/main-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
