@@ -1,20 +1,10 @@
-import { NextRequest, NextResponse } from "next/server";
+import { type NextRequest, NextResponse } from "next/server";
 import properties from "@/data/properties.json";
 import type { Property } from "@/schemas/property";
 
 type ApiError = {
   success: false;
   message: string;
-};
-
-type ApiSuccess<T> = {
-  success: true;
-  data: T;
-};
-
-type PropertyResponse = {
-  property: Property;
-  similarProperties: Property[];
 };
 
 function getSimilarProperties(

@@ -1,3 +1,4 @@
+import type { LoginFormValues, SignUpFormValues } from "@/schemas/auth";
 import type { PaginatedProperties, PropertyResponse } from "@/schemas/property";
 
 export const baseUrl =
@@ -64,6 +65,62 @@ export const getProperty = async (
     return {
       success: true,
       data: properties,
+    };
+  } catch {
+    return {
+      success: false,
+      message: "Internal server error",
+    };
+  }
+};
+
+export const signUp = async (data: SignUpFormValues) => {
+  try {
+    const url = `${baseUrl}/api/signup`;
+    const response = await fetch(url, {
+      body: JSON.stringify(data),
+      method: "POST",
+    });
+    if (!response.ok) {
+      const errorData = await response.json();
+      return {
+        success: false,
+        message: errorData.message || "Failed to sign up",
+        status: response.status,
+      };
+    }
+    const user = await response.json();
+    return {
+      success: true,
+      data: user,
+    };
+  } catch {
+    return {
+      success: false,
+      message: "Internal server error",
+    };
+  }
+};
+
+export const signIn = async (data: LoginFormValues) => {
+  try {
+    const url = `${baseUrl}/api/signin`;
+    const response = await fetch(url, {
+      body: JSON.stringify(data),
+      method: "POST",
+    });
+    if (!response.ok) {
+      const errorData = await response.json();
+      return {
+        success: false,
+        message: errorData.message || "Failed to sign in",
+        status: response.status,
+      };
+    }
+    const user = await response.json();
+    return {
+      success: true,
+      data: user,
     };
   } catch {
     return {

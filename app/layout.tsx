@@ -3,6 +3,7 @@ import { Archivo } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/navbar";
 import { TailwindIndicator } from "@/components/tailwind-breakpoint";
+import { Toaster } from "@/components/ui/sonner";
 
 const archivo = Archivo({
   variable: "--font-archivo",
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <TailwindIndicator />
+        <Toaster />
       </body>
     </html>
   );

@@ -1,14 +1,18 @@
 "use client";
 
+import { zodResolver } from "@hookform/resolvers/zod";
 import { LockIcon, UserIcon } from "lucide-react";
+import { Controller, useForm } from "react-hook-form";
+import { toast } from "sonner";
 import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 import { Field, FieldError, FieldGroup } from "../ui/field";
-import { Controller, useForm } from "react-hook-form";
 import { type SignUpFormValues, signUpSchema } from "@/schemas/auth";
-import { zodResolver } from "@hookform/resolvers/zod";
+import { signUp } from "@/lib/api";
+import { useRouter } from "next/navigation";
 
 const LoginForm = () => {
+  const router = useRouter();
   const form = useForm<SignUpFormValues>({
     resolver: zodResolver(signUpSchema),
     defaultValues: {
@@ -17,8 +21,23 @@ const LoginForm = () => {
       confirmPassword: "",
     },
   });
+
+  const handleSignUp = async (data: SignUpFormValues) => {
+    const response = await signUp(data);
+    if (!response.success) {
+      toast.error(response.message);
+    } else {
+      toast.success("Account successfully created!");
+      router.push("/login");
+    }
+  };
+
   return (
-    <form onSubmit={form.handleSubmit(() => {})}>
+    <form
+      onSubmit={form.handleSubmit(async (data) => {
+        await handleSignUp(data);
+      })}
+    >
       <FieldGroup className="flex flex-col gap-6 pb-4">
         <h2 className="text-2xl font-bold">Create Account</h2>
         <Controller
@@ -89,7 +108,10 @@ const LoginForm = () => {
           }}
         />
 
-        <Button className="self-start py-6! px-12 bg-accent-orange hover:bg-accent-orange text-white rounded-lg">
+        <Button
+          className="self-start py-6! px-12! bg-accent-orange hover:bg-accent-orange text-white rounded-lg"
+          disabled={form.formState.isSubmitting}
+        >
           Sign Up
         </Button>
       </FieldGroup>

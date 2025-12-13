@@ -1,5 +1,11 @@
 import z from "zod";
 
+export const userSchema = z.object({
+  id: z.cuid2(),
+  email: z.email(),
+  passwordHash: z.string(),
+});
+
 export const loginSchema = z.object({
   email: z.email({ message: "Enter a valid email address." }),
   password: z
@@ -24,3 +30,4 @@ export const signUpSchema = z
 
 export type LoginFormValues = z.infer<typeof loginSchema>;
 export type SignUpFormValues = z.infer<typeof signUpSchema>;
+export type User = z.infer<typeof userSchema>;
