@@ -10,8 +10,10 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { signIn } from "@/lib/api";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
+import { useAuthStore } from "@/store/auth";
 
 const LoginForm = () => {
+  const { setAccessToken, login } = useAuthStore();
   const form = useForm<LoginFormValues>({
     resolver: zodResolver(loginSchema),
     defaultValues: {
@@ -25,7 +27,11 @@ const LoginForm = () => {
     try {
       const response = await signIn(data);
       if (response.success) {
-        router.push("/");
+        console.log(response);
+        login(response.data.user);
+        setAccessToken(response.data.token);
+
+        // router.push("/");
       } else {
         toast.error(response.message);
       }
