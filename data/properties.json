@@ -2,6 +2,7 @@
     {
         "id": "prop-001",
         "name": "Cozy Mountain Cabin Retreat",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 145,
         "numberOfReviews": 127,
@@ -12,11 +13,20 @@
         "bedrooms": 2,
         "bathrooms": 1,
         "maxGuests": 4,
-        "image": "/properties/1.png"
+        "image": "/properties/1.png",
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ]
     },
     {
         "id": "prop-002",
         "name": "Modern Downtown Loft",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 220,
         "numberOfReviews": 89,
@@ -27,11 +37,20 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "maxGuests": 2,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/6.png"
     },
     {
         "id": "prop-003",
         "name": "Beachfront Villa Paradise",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 485,
         "numberOfReviews": 203,
@@ -42,11 +61,20 @@
         "bedrooms": 4,
         "bathrooms": 3,
         "maxGuests": 8,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/4.png"
     },
     {
         "id": "prop-004",
         "name": "Historic Brownstone Apartment",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 175,
         "numberOfReviews": 64,
@@ -57,11 +85,20 @@
         "bedrooms": 2,
         "bathrooms": 1,
         "maxGuests": 4,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/5.png"
     },
     {
         "id": "prop-005",
         "name": "Desert Oasis Adobe House",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 195,
         "numberOfReviews": 112,
@@ -72,11 +109,20 @@
         "bedrooms": 3,
         "bathrooms": 2,
         "maxGuests": 6,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/2.png"
     },
     {
         "id": "prop-006",
         "name": "Lakeside Cottage with Dock",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 165,
         "numberOfReviews": 78,
@@ -87,11 +133,20 @@
         "bedrooms": 2,
         "bathrooms": 1,
         "maxGuests": 5,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/4.png"
     },
     {
         "id": "prop-007",
         "name": "Rustic Farmhouse Estate",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 210,
         "numberOfReviews": 145,
@@ -102,11 +157,20 @@
         "bedrooms": 4,
         "bathrooms": 2,
         "maxGuests": 8,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/6.png"
     },
     {
         "id": "prop-008",
         "name": "Minimalist Studio Apartment",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 85,
         "numberOfReviews": 42,
@@ -117,11 +181,20 @@
         "bedrooms": 0,
         "bathrooms": 1,
         "maxGuests": 1,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/3.png"
     },
     {
         "id": "prop-009",
         "name": "Treehouse Adventure Escape",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 155,
         "numberOfReviews": 96,
@@ -132,11 +205,20 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "maxGuests": 2,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/1.png"
     },
     {
         "id": "prop-010",
         "name": "Luxury Penthouse Suite",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 550,
         "numberOfReviews": 67,
@@ -147,11 +229,20 @@
         "bedrooms": 3,
         "bathrooms": 3,
         "maxGuests": 6,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/2.png"
     },
     {
         "id": "prop-011",
         "name": "Vintage Airstream Glamping",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 95,
         "numberOfReviews": 134,
@@ -162,11 +253,20 @@
         "bedrooms": 1,
         "bathrooms": 0,
         "maxGuests": 2,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/3.png"
     },
     {
         "id": "prop-012",
         "name": "Victorian Mansion Room",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 135,
         "numberOfReviews": 88,
@@ -177,11 +277,20 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "maxGuests": 2,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/1.png"
     },
     {
         "id": "prop-013",
         "name": "Contemporary Glass House",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 395,
         "numberOfReviews": 54,
@@ -192,11 +301,20 @@
         "bedrooms": 2,
         "bathrooms": 2,
         "maxGuests": 4,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/5.png"
     },
     {
         "id": "prop-014",
         "name": "Cozy Ski Chalet",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 285,
         "numberOfReviews": 119,
@@ -207,11 +325,20 @@
         "bedrooms": 3,
         "bathrooms": 2,
         "maxGuests": 6,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/2.png"
     },
     {
         "id": "prop-015",
         "name": "Coastal Lighthouse Keeper's Cottage",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 175,
         "numberOfReviews": 102,
@@ -222,11 +349,20 @@
         "bedrooms": 2,
         "bathrooms": 1,
         "maxGuests": 4,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/5.png"
     },
     {
         "id": "prop-016",
         "name": "Tropical Bungalow Retreat",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 225,
         "numberOfReviews": 167,
@@ -237,11 +373,20 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "maxGuests": 3,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/4.png"
     },
     {
         "id": "prop-017",
         "name": "Industrial Warehouse Conversion",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 260,
         "numberOfReviews": 73,
@@ -252,11 +397,20 @@
         "bedrooms": 2,
         "bathrooms": 2,
         "maxGuests": 4,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/3.png"
     },
     {
         "id": "prop-018",
         "name": "Vineyard Estate Guesthouse",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 245,
         "numberOfReviews": 91,
@@ -267,11 +421,20 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "maxGuests": 2,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/5.png"
     },
     {
         "id": "prop-019",
         "name": "Riverside Fishing Lodge",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 185,
         "numberOfReviews": 108,
@@ -282,11 +445,20 @@
         "bedrooms": 2,
         "bathrooms": 1,
         "maxGuests": 5,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/1.png"
     },
     {
         "id": "prop-020",
         "name": "Garden Cottage Studio",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 125,
         "numberOfReviews": 156,
@@ -297,11 +469,20 @@
         "bedrooms": 0,
         "bathrooms": 1,
         "maxGuests": 2,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/2.png"
     },
     {
         "id": "prop-021",
         "name": "Mountain View Geodesic Dome",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 145,
         "numberOfReviews": 84,
@@ -312,11 +493,20 @@
         "bedrooms": 1,
         "bathrooms": 0,
         "maxGuests": 2,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/3.png"
     },
     {
         "id": "prop-022",
         "name": "Art Deco Apartment",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 195,
         "numberOfReviews": 76,
@@ -327,11 +517,20 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "maxGuests": 3,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/4.png"
     },
     {
         "id": "prop-023",
         "name": "Countryside Manor Suite",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 325,
         "numberOfReviews": 62,
@@ -342,11 +541,20 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "maxGuests": 2,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/2.png"
     },
     {
         "id": "prop-024",
         "name": "Urban Rooftop Terrace Loft",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 310,
         "numberOfReviews": 94,
@@ -357,11 +565,20 @@
         "bedrooms": 2,
         "bathrooms": 2,
         "maxGuests": 4,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/3.png"
     },
     {
         "id": "prop-025",
         "name": "Secluded Forest Cabin",
+        "detail": "Welcome to Brightwoods Cabin, your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.",
         "description": "<h1>Welcome to Brightwoods Cabin!</h1><p>Your idyllic retreat nestled in the heart of Bridlepath, Ontario! Our cozy cabin, surrounded by the tranquility of nature's embrace, is designed to provide the ultimate relaxing getaway.</p><h2>Cabin Features</h2><p><strong>Living Space:</strong> This charming cabin boasts a spacious living area adorned with rustic decor and modern amenities. Enjoy the warmth of the wood-burning fireplace, relax on the plush sofas, and make yourself at home with our entertainment center featuring a flat-screen TV, WiFi, and more.</p><p><strong>Bedrooms:</strong> With 3 beautifully appointed bedrooms, our cabin comfortably accommodates up to [number of guests]. Each room is furnished with luxurious bedding and unique woodland-inspired touches to ensure a restful slumber.</p><p><strong>Kitchen & Dining:</strong> Our fully-equipped kitchen offers everything you need to prepare delicious home-cooked meals. The open dining area provides a welcoming space to enjoy meals with friends and family.</p><p><strong>Bathrooms:</strong> 2 modern bathrooms stocked with fresh towels, toiletries, and all essential amenities add to your convenience.</p><p><strong>Outdoor Space:</strong> Step outside to a serene outdoor setting. Whether it's a morning coffee on the porch, a BBQ in the yard, or a soothing evening by the fire pit, the beauty of Bridlepath is at your doorstep.</p><p><strong>Location:</strong> Located just minutes from [local attractions, trails, dining, shopping], our cabin offers the perfect base to explore the best of the region or simply unwind in seclusion.</p><h2>Hosted with Love</h2><p>We take pride in hosting our guests and are committed to making your stay unforgettable. We're just a call or message away should you need anything during your stay.</p><p>Come, be our guest at [Cabin Name], and experience a piece of woodland serenity right here in Bridlepath, Ontario. **Book now and make yourself at home!**</p>",
         "price": 115,
         "numberOfReviews": 127,
@@ -372,6 +589,14 @@
         "bedrooms": 1,
         "bathrooms": 1,
         "maxGuests": 3,
+        "images": [
+            "/properties/1.png",
+            "/properties/2.png",
+            "/properties/3.png",
+            "/properties/4.png",
+            "/properties/5.png",
+            "/properties/6.png"
+        ],
         "image": "/properties/6.png"
     }
 ]

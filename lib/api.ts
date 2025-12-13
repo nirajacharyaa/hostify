@@ -1,4 +1,4 @@
-import type { PaginatedProperties } from "@/schemas/property";
+import type { PaginatedProperties, PropertyResponse } from "@/schemas/property";
 
 export const baseUrl =
   process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
@@ -31,6 +31,36 @@ export const getProperties = async (
     }
 
     const properties = (await response.json()) as PaginatedProperties;
+    return {
+      success: true,
+      data: properties,
+    };
+  } catch {
+    return {
+      success: false,
+      message: "Internal server error",
+    };
+  }
+};
+
+export const getProperty = async (
+  id: string,
+): Promise<ApiSuccess<PropertyResponse> | ApiError> => {
+  try {
+    const url = `${baseUrl}/api/properties/${id}`;
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      return {
+        success: false,
+        message: errorData.message || "Failed to fetch properties",
+        status: response.status,
+      };
+    }
+
+    const properties = (await response.json()).data as PropertyResponse;
+    console.log("in the api=======?", properties);
     return {
       success: true,
       data: properties,

@@ -2,6 +2,8 @@ import { Ear, Heart, StarIcon } from "lucide-react";
 import Image from "next/image";
 import type { Property } from "@/schemas/property";
 import { Button } from "../ui/button";
+import Link from "next/link";
+import { property } from "zod";
 
 const PropertyCard = ({
   name,
@@ -10,6 +12,7 @@ const PropertyCard = ({
   averageRating,
   superhost,
   image,
+  id,
 }: Property) => {
   return (
     <div className="bg-white border-subtle-border rounded-xl border overflow-hidden">
@@ -42,7 +45,9 @@ const PropertyCard = ({
       <div className="p-4 flex flex-col space-y-1">
         <div className="flex justify-between items-start">
           <h2 className="text-base font-semibold text-t-dark leading-tight pr-4">
-            {name}
+            <Link href={`/property/${id}`} className="hover:underline">
+              {name}
+            </Link>
           </h2>
           <div className="flex items-center text-sm font-semibold shrink-0">
             <StarIcon

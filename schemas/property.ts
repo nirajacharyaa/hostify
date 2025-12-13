@@ -7,6 +7,7 @@ export const propertySchema = z.object({
   price: z.number(),
   numberOfReviews: z.number(),
   averageRating: z.number(),
+  images: z.array(z.string()),
   location: z.string(),
   hostName: z.string(),
   superhost: z.boolean(),
@@ -14,9 +15,17 @@ export const propertySchema = z.object({
   bathrooms: z.number(),
   maxGuests: z.number(),
   image: z.string(),
+  detail: z.string(),
 });
 
 export type Property = z.infer<typeof propertySchema>;
+
+export const propertyResponseSchema = z.object({
+  property: propertySchema,
+  similarProperties: z.array(propertySchema),
+});
+
+export type PropertyResponse = z.infer<typeof propertyResponseSchema>;
 
 export const paginatedPropertiesSchema = z.object({
   data: z.array(propertySchema),

@@ -2,6 +2,7 @@ import { Ear, Heart, StarIcon } from "lucide-react";
 import Image from "next/image";
 import type { Property } from "@/schemas/property";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const HorizontalPropertyCard = ({
   name,
@@ -10,10 +11,11 @@ const HorizontalPropertyCard = ({
   averageRating,
   superhost,
   image,
+  id,
 }: Property) => {
   return (
     <div className="flex max-w-3xl w-full bg-white rounded-xl border border-subtle-border overflow-hidden">
-      <div className="relative w-48 sm:w-56 md:w-64 aspect-4/3 shrink-0">
+      <div className="relative w-48 aspect-4/3 shrink-0">
         <Image
           src={image}
           alt={name}
@@ -43,16 +45,17 @@ const HorizontalPropertyCard = ({
         <div className="space-y-1">
           <div className="flex justify-between items-start">
             <h2 className="text-base font-semibold text-t-dark leading-tight pr-4">
-              {name}
+              <Link href={`/property/${id}`} className="hover:underline">
+                {name}
+              </Link>
             </h2>
-
-            <div className="flex items-center text-sm font-semibold text-gray-800">
-              <StarIcon className="size-4 text-yellow-500 mr-1" />
-              {averageRating}
-            </div>
           </div>
 
           <p className="text-sm text-light-text">{location}</p>
+        </div>
+        <div className="flex items-center text-sm py-1 font-semibold text-gray-800">
+          <StarIcon className="size-4 text-yellow-500 mr-1" />
+          {averageRating}
         </div>
 
         <div className="pt-3 flex justify-between items-end">
