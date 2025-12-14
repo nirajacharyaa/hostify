@@ -62,7 +62,7 @@ const HeroForm = () => {
           </Button>
         </PopoverTrigger>
 
-        <PopoverContent className="w-auto p-0" align="center">
+        <PopoverContent className="w-auto p-0" align="end">
           <Calendar
             mode="range"
             defaultMonth={date?.from}
