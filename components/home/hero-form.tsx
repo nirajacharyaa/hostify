@@ -16,7 +16,7 @@ const HeroForm = () => {
 
   return (
     <div className="flex flex-col gap-4 rounded-lg bg-white p-4 border md:flex-row md:items-center">
-      <div className="relative flex flex-1 rounded border items-center md:min-w-md">
+      <div className="relative flex flex-1 rounded border items-center xl:min-w-md">
         <Input
           type="text"
           placeholder="Accommodation"
