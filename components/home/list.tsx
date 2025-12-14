@@ -6,8 +6,6 @@ import ListClient from "./list-client";
 const ProductList = async () => {
   const properties = await getProperties();
 
-  console.log(properties);
-
   if (!properties.success) {
     throw new Error(properties.message);
   }
