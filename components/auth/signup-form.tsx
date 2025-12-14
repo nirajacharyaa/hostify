@@ -10,9 +10,12 @@ import { Field, FieldError, FieldGroup } from "../ui/field";
 import { type SignUpFormValues, signUpSchema } from "@/schemas/auth";
 import { signUp } from "@/lib/api";
 import { useRouter } from "next/navigation";
+import { useCallback, useRef } from "react";
 
 const LoginForm = () => {
   const router = useRouter();
+  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
+
   const form = useForm<SignUpFormValues>({
     resolver: zodResolver(signUpSchema),
     defaultValues: {
@@ -20,6 +23,7 @@ const LoginForm = () => {
       password: "",
       confirmPassword: "",
     },
+    mode: "onChange",
   });
 
   const handleSignUp = async (data: SignUpFormValues) => {
@@ -31,6 +35,48 @@ const LoginForm = () => {
       router.push("/login");
     }
   };
+
+  const checkEmailExists = async (email: string): Promise<boolean> => {
+    try {
+      const response = await fetch(
+        `/api/check-email?email=${encodeURIComponent(email)}`,
+        {
+          method: "HEAD",
+        },
+      );
+      return response.ok;
+    } catch (error) {
+      console.error("Error checking email:", error);
+      return false;
+    }
+  };
+
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <biome please leave me alone>
+  const validateEmail = useCallback(
+    async (email: string) => {
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+      }
+
+      if (!email || !email.includes("@")) return;
+
+      debounceTimerRef.current = setTimeout(async () => {
+        const exists = await checkEmailExists(email);
+        if (exists) {
+          form.setError("email", {
+            type: "manual",
+            message: "This email is already registered",
+          });
+        } else {
+          const emailError = form.formState.errors.email;
+          if (emailError?.type === "manual") {
+            form.clearErrors("email");
+          }
+        }
+      }, 500);
+    },
+    [form],
+  );
 
   return (
     <form
@@ -52,6 +98,10 @@ const LoginForm = () => {
                     placeholder="Email Address"
                     className="border-0 pr-10 bg-white! py-4! rounded h-auto! shadow-none focus-visible:ring-0"
                     {...field}
+                    onChange={(e) => {
+                      field.onChange(e);
+                      validateEmail(e.target.value);
+                    }}
                   />
                   <UserIcon className="absolute right-3 size-6 text-black/60" />
                 </div>

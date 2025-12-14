@@ -31,7 +31,7 @@ const LoginForm = () => {
         login(response.data.user);
         setAccessToken(response.data.token);
 
-        // router.push("/");
+        router.push("/");
       } else {
         toast.error(response.message);
       }
