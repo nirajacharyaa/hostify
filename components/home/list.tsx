@@ -1,8 +1,6 @@
 import { Grid2X2, List } from "lucide-react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getProperties } from "@/lib/api";
-import PropertyCard from "./property-card";
-import HorizontalPropertyCard from "./proterty-card-horizontal";
 import ListClient from "./list-client";
 
 const ProductList = async () => {
