@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getProperties } from "@/lib/api";
 import PropertyCard from "./property-card";
 import HorizontalPropertyCard from "./proterty-card-horizontal";
+import ListClient from "./list-client";
 
 const ProductList = async () => {
   const properties = await getProperties();
@@ -36,20 +37,7 @@ const ProductList = async () => {
             </TabsTrigger>
           </TabsList>
         </div>
-        <TabsContent value="grid">
-          <div className="grid grid-cols-2 gap-6 lg:grid-cols-3 2xl:grid-cols-4">
-            {properties?.data?.data?.map((property) => (
-              <PropertyCard key={property.id} {...property} />
-            ))}
-          </div>
-        </TabsContent>
-        <TabsContent value="list">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {properties?.data?.data?.map((property) => (
-              <HorizontalPropertyCard key={property.id} {...property} />
-            ))}
-          </div>
-        </TabsContent>
+        <ListClient initialProperties={properties.data.data} />
       </Tabs>
     </section>
   );
