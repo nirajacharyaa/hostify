@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/shared/navbar";
 import { TailwindIndicator } from "@/components/tailwind-breakpoint";
 import { Toaster } from "@/components/ui/sonner";
+import Footer from "@/components/shared/footer";
 
 const archivo = Archivo({
   variable: "--font-archivo",
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${archivo.variable} ${archivo.className} antialiased`}>
         <Navbar />
         {children}
+        <Footer />
         <TailwindIndicator />
         <Toaster />
       </body>

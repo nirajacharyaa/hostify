@@ -1,9 +1,9 @@
 import * as jwt from "jsonwebtoken";
-import type { NextResponse } from "next/server";
 import type { User } from "@/schemas/auth";
-import users from "./db";
+import type { NextResponse } from "next/server";
 import { createId } from "@paralleldrive/cuid2";
 import * as bcrypt from "bcryptjs";
+import users from "./db";
 
 const JWT_SECRET = process.env.JWT_SECRET || "";
 const TOKEN_EXPIRY = "7d";
