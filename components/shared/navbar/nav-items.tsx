@@ -1,19 +1,16 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
+import { LogOutIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useAuthStore } from "@/store/auth";
-import { LogOutIcon } from "lucide-react";
 
 const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
 const NavItems = () => {
   const router = useRouter();
-  const navItems = [
-    { label: "Home", href: "/" },
-    { label: "Become a host", href: "/become-a-host" },
-  ];
-
+  const navItems = [{ label: "Home", href: "/" }];
   const { user, logout } = useAuthStore();
 
   const handleLogout = async () => {
@@ -31,9 +28,20 @@ const NavItems = () => {
           </li>
         ))}
         {user?.id && (
-          <li className="flex gap-2">
-            {user?.email.split("@")[0]}
-            <LogOutIcon className="cursor-pointer" onClick={handleLogout} />
+          <>
+            <li>
+              <Link href={"/become-a-host"}>Become a Host</Link>
+            </li>
+
+            <li className="flex gap-2">
+              {user?.email.split("@")[0]}
+              <LogOutIcon className="cursor-pointer" onClick={handleLogout} />
+            </li>
+          </>
+        )}
+        {!user?.id && (
+          <li>
+            <Link href={"/login"}>Login</Link>
           </li>
         )}
       </ul>
