@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
+## Quickstart
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup envirenment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+cp .env.example .env
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
 
-## Learn More
+## Authentication flow
 
-To learn more about Next.js, take a look at the following resources:
+This project uses JWT based authentication with httpOnly cookies set by server API routes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Steps (detailed):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. User fills the sign-up form on the frontend and sends POST /api/signup with JSON body.
+2. The api validates the request body and creates the user in the in-memory array of users, generates a JWT, and sets an httpOnly cookie containing the token.
 
-## Deploy on Vercel
+3. On sign-in, frontend calls POST /api/signin server validates credentials, issues a JWT, sets the cookie, and returns user info.
+4. Logout calls POST /api/logout which clears the cookie from the browser.
+5. The user is can be GET by /api/me which returns the user.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## API documentation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Path                  | Method | Auth Routes | params/ query                    | Desc                                      |
+| --------------------- | -----: | :---------: | -------------------------------- | ----------------------------------------- |
+| `/api/signup`         |   POST |     no      | JSON: `{ email, password, ... }` | Create a new user, sets auth cookie.      |
+| `/api/signin`         |   POST |     no      | JSON: `{ email, password }`      | validate and auth user, sets auth cookie. |
+| `/api/logout`         |   POST |     no      | none                             | clears auth cookie from the browser       |
+| `/api/me`             |    GET |     yes     | none                             | Returns the current authenticated user.   |
+| `/api/check-email`    |   HEAD |     no      | query: `?email=hi@niraj.com.np`  | Check if user with the email exists.      |
+| `/api/properties`     |    GET |     no      | query: `page`, `limit`           | returns list of peroperties               |
+| `/api/properties/:id` |    GET |     no      | param i                          | Returns a single property detail.         |
