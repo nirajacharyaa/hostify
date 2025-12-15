@@ -92,7 +92,7 @@ const LoginForm = () => {
           render={({ field, fieldState }) => {
             return (
               <Field data-invalid={fieldState.invalid}>
-                <div className="relative flex flex-1 rounded border items-center md:min-w-md">
+                <div className="relative flex flex-1 rounded border items-center w-full">
                   <Input
                     type="email"
                     placeholder="Email Address"
@@ -118,7 +118,7 @@ const LoginForm = () => {
           render={({ field, fieldState }) => {
             return (
               <Field data-invalid={fieldState.invalid}>
-                <div className="relative flex flex-1 rounded border items-center md:min-w-md">
+                <div className="relative flex flex-1 rounded border items-center w-full">
                   <Input
                     type="password"
                     placeholder="Password"
@@ -141,7 +141,7 @@ const LoginForm = () => {
           render={({ field, fieldState }) => {
             return (
               <Field data-invalid={fieldState.invalid}>
-                <div className="relative flex flex-1 rounded border items-center md:min-w-md">
+                <div className="relative flex flex-1 rounded border items-center w-full">
                   <Input
                     type="password"
                     placeholder="Confirm password"
